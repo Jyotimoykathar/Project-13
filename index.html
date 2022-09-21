@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sass landing page</title>
+
+    <!-- font-awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Roboto google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- local style sheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header-section">
+      <div class="container grid grid--3-cols">
+        <!-- MAIN LOGO -->
+        <div class="logo-box">
+          <img src="img/white-logo.png" alt="white logo image" />
+        </div>
+        <nav class="main-nav">
+          <ul class="nav-list">
+            <li><a href="#" class="nav-link">Home</a></li>
+            <li><a href="#" class="nav-link">Services</a></li>
+            <li><a href="#" class="nav-link">Pricing</a></li>
+            <li><a href="#" class="nav-link">Testimonials</a></li>
+            <li><a href="#" class="nav-link">Blog</a></li>
+            <li><a href="#" class="nav-link nav-link-cta">FREE TRIAL</a></li>
+          </ul>
+        </nav>
+        <button class="btn-mobile-nav">
+          <i class="fa-solid fa-bars icon-mobile-nav" name="fa-bar"></i>
+          <i class="fa-solid fa-xmark icon-mobile-nav" name="fa-xmark"></i>
+        </button>
+      </div>
+    </header>
+    <main>
+      <!-- HERO SECTION START -->
+      <section class="hero-section">
+        <div class="hero container grid grid--2-cols">
+          <div class="left-description">
+            <h1 class="heading-primary">
+              Codext one of the best system in SAAS
+            </h1>
+            <p class="description color-white">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Blanditiis non porro et beatae molestiae dicta nam nulla quasi,
+              repellendus a!
+            </p>
+          </div>
+          <div class="right-image">
+            <img src="img/header.svg" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- HERO SECTION END -->
+
+      <!-- SERVICE SECTION START -->
+      <section class="service-section">
+        <div class="grid grid--2-cols container">
+          <div class="left-image">
+            <img src="img/hero.svg" alt="left sass image" />
+          </div>
+          <div class="right-text">
+            <h2 class="heading-secondary">It's helpful for operating system</h2>
+            <div>
+              <h3 class="heading-tertiary">
+                <i class="fa-solid fa-share icon icon-orange"></i>Ultra fast &
+                Secure
+              </h3>
+              <p class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+                voluptatem doloremque fuga iure voluptatum.
+              </p>
+            </div>
+            <div>
+              <h3 class="heading-tertiary">
+                <i class="fa-solid fa-share icon icon-green"></i>Allow
+                customization
+              </h3>
+              <p class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+                voluptatem doloremque fuga iure voluptatum.
+              </p>
+            </div>
+            <div>
+              <h3 class="heading-tertiary">
+                <i class="fa-solid fa-share icon icon-blue"></i>Smart Contract
+              </h3>
+              <p class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+                voluptatem doloremque fuga iure voluptatum.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- SERVICE SECTION END -->
+
+      <!-- CSUTOMER SECTION START-->
+      <section class="customer-section container">
+        <h2 class="heading-secondary center">
+          We Provide Best Feature for Customer
+        </h2>
+        <div class="cards grid grid--4-cols">
+          <div class="card center">
+            <div class="card-head">
+              <img
+                src="img/web-developing.svg"
+                class="card-icon"
+                alt="webdevlopment icon"
+              />
+            </div>
+            <div class="card-body bg-purple">
+              <h3 class="heading-tertiary">Clean Code</h3>
+              <p class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+          <div class="card center">
+            <div class="card-head">
+              <img
+                src="img/data-analytics.svg"
+                class="card-icon"
+                alt="Data analytics  icon"
+              />
+            </div>
+            <div class="card-body">
+              <h3 class="heading-tertiary">Data Analytics</h3>
+              <p class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+          <div class="card center">
+            <div class="card-head">
+              <img
+                src="img/secured-profile.svg"
+                class="card-icon"
+                alt="secured icon"
+              />
+            </div>
+            <div class="card-body">
+              <h3 class="heading-tertiary">Fully Secured</h3>
+              <p class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+          <div class="card center">
+            <div class="card-head">
+              <img
+                src="img/support.svg"
+                class="card-icon"
+                alt="24/7 support icon"
+              />
+            </div>
+            <div class="card-body">
+              <h3 class="heading-tertiary">24/7 Support</h3>
+              <p class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CUSTOMER SECTION END -->
+    </main>
+
+    <!-- ION ICONS -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
