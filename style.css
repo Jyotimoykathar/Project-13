@@ -307,4 +307,10 @@ body {
   .grid--4-cols {
     grid-template-columns: 1fr;
   }
+  .card {
+    height: 38rem;
+  }
+  .card-body.bg-purple {
+    top: 22rem;
+  }
 }
