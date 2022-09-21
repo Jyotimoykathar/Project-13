@@ -25,8 +25,8 @@ This is the thirteenth project among the 15 Ineuron-projects.
 
 ### Links
 
-- Code File URL: [github.com](https://github.com/Jyotimoykathar/Project-02)
-- Live Site URL: [netlify.app](https://project-02-restaurant.netlify.app/)
+- Code File URL: [github.com](https://github.com/Jyotimoykathar/Project-13)
+- Live Site URL: [netlify.app](https://project-13-sass-landing.netlify.app/)
 
 ## My process
 
